@@ -1,15 +1,16 @@
 # Указываем, что файлы должны сохраняться как есть (без конвертации в UTF-8)
-* text=auto !eol
+* text=auto
 
 # Явно задаём кодировку для разных типов файлов
-*.html charset=windows-1251
+*.html text working-tree-encoding=UTF-8
 *.htm  charset=windows-1251
-*.css  charset=windows-1251
-*.js   charset=windows-1251
-*.php  charset=windows-1251
-*.txt  charset=windows-1251
+*.css text working-tree-encoding=UTF-8
+*.js text working-tree-encoding=UTF-8
+*.php text working-tree-encoding=UTF-8
+*.txt text working-tree-encoding=UTF-8
 *.xml  charset=windows-1251
 *.tpl  charset=windows-1251
+*.md text working-tree-encoding=UTF-8
 
 # Если у вас есть другие файлы (например, .inc, .asp), добавьте их так:
 # *.inc  charset=windows-1251
