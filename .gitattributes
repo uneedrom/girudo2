@@ -1,0 +1,16 @@
+# Указываем, что файлы должны сохраняться как есть (без конвертации в UTF-8)
+* text=auto !eol
+
+# Явно задаём кодировку для разных типов файлов
+*.html charset=windows-1251
+*.htm  charset=windows-1251
+*.css  charset=windows-1251
+*.js   charset=windows-1251
+*.php  charset=windows-1251
+*.txt  charset=windows-1251
+*.xml  charset=windows-1251
+*.tpl  charset=windows-1251
+
+# Если у вас есть другие файлы (например, .inc, .asp), добавьте их так:
+# *.inc  charset=windows-1251
+# *.asp charset=windows-1251
